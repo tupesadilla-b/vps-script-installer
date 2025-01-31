@@ -1,11 +1,11 @@
-#!/bin/bash
+,bin/bash
 
 # Directorio de instalación
 INSTALL_DIR="/usr/local/vps"
 
 # Clonar el repositorio
 echo "Clonando el repositorio..."
-git clone https://github.com/usuario/vps_manager.git "$INSTALL_DIR" || {
+git clone https://github.com/tupesadilla-b/vps_manager.git "$INSTALL_DIR" || {
     echo "Error al clonar el repositorio."
     exit 1
 }
